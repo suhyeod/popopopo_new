@@ -1,0 +1,416 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*=================리셋코드===========================*/
+
+body {
+    height: 3000px;
+}
+.top {
+    height: 43px;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+}
+.container   {
+    font-size: 13px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+
+/*==========mobile_header===========*/
+#mobile_header > div:nth-child(1) {
+    padding: 8px 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#line_0 {
+    display: grid;
+    gap: 8px;
+    width: 24px;
+    height: 15px;
+}
+.line {
+    width: 100%;
+    height: 0.99px;
+    background-color: black;
+}
+
+.line:nth-child(3) {
+    width: 50%;
+}
+#mobile_header > div > div:nth-child(2) > img {
+    position: relative;
+    left: 38px;
+}
+#mobile_header > div > div:nth-child(3) > ul {
+    display: flex;
+}
+#mobile_header > div > div:nth-child(3) > ul > li > img {
+    width: 24px;
+    margin-left: 8px;
+}
+
+#input_mobile {
+    width: 85%;
+    height: 34px;
+    background-color: #f9f9f9;
+    border: 0;
+    font-size: 14px;
+    background-image: url("/img/search_FILL0_wght300_GRAD0_opsz48.png");
+    background-repeat: no-repeat;
+    background-size: 34px;
+    margin: 0 0 10px 30px;
+    padding: 0 0 0 34px;
+}
+/*==========pc_header===============*/
+#pc_header > div:nth-child(1) {
+    padding: 25px 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#pc_header > div > div {
+    display: flex;
+}
+
+#pc_header > div > div > ul {
+    display: flex;
+}
+
+#pc_header > div > div > ul > li > img {
+    width: 20px;
+    height: 20px;
+}
+#pc_header > div > div:nth-child(1) > ul > li {
+    margin-right: 16px;
+    display: flex;
+    line-height: 24px;
+}
+#pc_header > div > div:nth-child(2) > img {
+    position: relative;
+    left: 35px;
+}
+#pc_header > div > div:last-child > ul > li > img {
+    margin-top: 8px;
+}
+#pc_header > div > div:last-child > ul > li:nth-child(1) > img {
+    height: 20px;
+    border-right: solid 1px;
+}
+.rt {
+    height: 20px;
+    border-right: solid 1px black;
+}
+#pc_header > div > div > ul > li > img {
+    margin: 0 10px;
+    padding-right: 16px;
+}
+
+#input_pc {
+    width: 140px;
+    height: 34px;
+    background-color: #f9f9f9;
+    border: 0;
+    font-size: 14px;
+    background-image: url("/img/search_FILL0_wght300_GRAD0_opsz48.png");
+    background-repeat: no-repeat;
+    background-size: 34px;
+    padding: 0 0 0 34px;
+}
+
+/*=======nav==========*/
+
+nav > ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 0 20px;
+}
+nav > ul > li:hover {
+    border-bottom: 1px solid black;
+    padding: 0 0 4px;
+}
+/*=========pc_main=============*/
+#pc_main {
+    margin: 0px 30px 0px 30px;
+}
+.t_line_0  {
+    display: flex;
+}
+.img_1{
+    margin-top: 30px;
+}
+.img_1 > img {
+    width: 100%;
+}
+
+.t_line_0 {
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 150px;
+
+}
+.t_line {
+    width: 40px;
+    height: 0.99px;
+    background-color: black;
+    margin: 9px 12px;
+}
+
+
+.img_2  > ul {
+    display: flex;
+}
+
+.img_3 > div , .img_4 > div {
+    margin-bottom: 8px;
+}
+.img_3 > span  , .img_4 > span {
+    color: #767677;
+    font-weight: bold;
+}
+.img_3 , .img_4 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.img_3 > img , .img_4 > img {
+    width: 219px;
+    height: 219px;
+}
+
+.ADD{
+    width: 140px;
+    height: 30px;
+    border: 0;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.ADD:hover {
+    background-color: white;
+    color: black;
+}
+/*=========슬라이드===========*/
+
+.img_2  {
+    max-width: 1280px;
+    height: 500px;
+    position: relative;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    /*리스트 형식으로 이미지를 일렬로 
+    정렬할 것이기 때문에, 500px 밖으로 튀어 나간 이미지들은
+    hidden으로 숨겨줘야됨*/
+}
+
+.img_2 > ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500px;
+    /* 슬라이드할 사진과 마진 총 넓이 */
+    transition: left 1s ease-out;
+    /*ease-out: 처음에는 느렸다가 점점 빨라짐*/
+}
+
+/* 첫 번째 슬라이드 가운데에 정렬하기위해
+첫번째 슬라이드만 margin-left조정 */
+.img_2 > ul  > li:first-child {
+    margin-left: 0px;
+}
+
+/* 슬라이드들 옆으로 정렬 */
+.img_2 > ul > li:not(:last-child) {
+    float: left;
+    margin-right: 0px;
+}
+
+.img_3 , .img_4{
+    float: left;
+    padding: 0px 45px;
+}
+
+.controller > span {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+    top: 50%;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* 이전, 다음 화살표에 마우스 커서가 올라가 있을때 */
+.controller > span:hover {
+    background-color: rgba(128, 128, 128, 0.11);
+}
+
+
+.prev {
+    left: 10px;
+}
+
+/* 이전 화살표에 마우스 커서가 올라가 있을때 
+  이전 화살표가 살짝 왼쪽으로 이동하는 효과*/
+.prev:hover {
+    transform: translateX(-10px);
+}
+
+.next {
+    right: 10px;
+
+}
+
+/* 다음 화살표에 마우스 커서가 올라가 있을때 
+  이전 화살표가 살짝 오른쪽으로 이동하는 효과*/
+.next:hover {
+    transform: translateX(10px);
+}
+
+
+/*====================슬라이드 끝===========*/
+@media (min-width : 750px) {
+    #mobile{
+        display: none;
+    }
+}
+@media(max-width : 750px) {
+    #pc  , .top:nth-child(1) {
+        display: none;
+    }
+}
